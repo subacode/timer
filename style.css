@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kanit:wght@100&display=swap');
+
+.icons {
+    width: 10px;
+    cursor: pointer;
+}
+
+body {
+    background: url(images/sitedisplay.jpg);
+    font-family: 'Caveat', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+.timer{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/lofi.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: rgb(255, 255, 255);
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.timer h1{
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2) {
+    width: 70px;
+}
+
